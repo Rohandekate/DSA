@@ -1,15 +1,14 @@
 package com.dsa.arrays.Problem1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class BruteForce {
 
 	public static Integer bruteForceMethodToFindFirstOccurence(int[] arr, int element) throws Exception {
-		 
+		if(arr.length==0) {
+			return -1;
+		}
 		
 		Set<Integer> set = new HashSet<>();
 

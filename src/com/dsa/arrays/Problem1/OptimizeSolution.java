@@ -3,6 +3,9 @@ package com.dsa.arrays.Problem1;
 public class OptimizeSolution {
 
 	public static int find1stOccurrenceOfAValueInArrayIfAdjacentValuesDifferBy1(int[] arr, int element) {
+		if(arr.length==0) {
+			return -1;
+		}
 		if(checkAllArrElementDifferBy1(arr)) {
 		
 		int startPos = 0;
