@@ -8,6 +8,7 @@ public class KadaneAlgorithm {
 
 	}
 
+	
 	public static int kandaneForMaxSubArray(int[] arr) {
 		int currSum = 0;
 		int maxSum = 0;
