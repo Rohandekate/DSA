@@ -2,7 +2,7 @@ package com.leetcode.easy;
 
 import java.util.HashMap;
 import java.util.Map;
-
+ 
 //https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
 
 //Given an array having both positive and negative integers. The task is to compute the length of the largest subarray with sum 0.
@@ -25,15 +25,15 @@ public class LargestSubArrayWithZeroSum {
 
 		Map<Integer, Integer> map = new HashMap<>();
 		int sum = 0;
-		int i = -1;
+		int i = -1; 
 
 		int maxlen = 0;
-		map.put(sum, i);
+		map.put(sum, i);    
 
 		while (i < arr.length - 1) {
 			
 			i++;
-			sum += arr[i];
+			sum += arr[i];  
 			System.out.println("maxSum="+sum);
 		
 			

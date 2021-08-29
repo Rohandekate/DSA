@@ -13,7 +13,7 @@ public class KadaneAlgorithm {
 		int currSum = 0;
 		int maxSum = 0;
 		for (int i = 0; i < arr.length; i++) {
-			currSum += arr[i];
+			currSum += arr[i]; 
 			if (currSum < 0) {
 				currSum = 0;
 			}
@@ -23,6 +23,6 @@ public class KadaneAlgorithm {
 			
 			 
 		}
-		return maxSum;
+		return maxSum; 
 	}
 }
