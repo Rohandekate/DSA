@@ -6,7 +6,7 @@ import java.util.Set;
 public class BruteForce {
 
 	public static Integer bruteForceMethodToFindFirstOccurence(int[] arr, int element) throws Exception {
-		if(arr.length==0) {
+		if(arr.length==0) {   
 			return -1;
 		}
 		
