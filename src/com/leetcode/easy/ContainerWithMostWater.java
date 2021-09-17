@@ -8,7 +8,7 @@ public class ContainerWithMostWater {
 
 	}
 	 public static int mostWater(int[] heights) {
-	       int i=0;
+	       int i=0; 
 	       int j=heights.length-1;
 	       System.out.println(j);
 	       int maxArea=0;
